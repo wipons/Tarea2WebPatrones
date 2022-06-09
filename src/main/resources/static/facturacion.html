@@ -1,0 +1,59 @@
+<html lang="es">
+    <head>
+        <title>Ana's Bakery</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Pagina de promoción de queques">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1 id="encabezado">Ana's Bakery</h1>   
+        </header>
+
+        <nav>
+            <a href="principal.html">Home</a>     
+        </nav>
+
+        <section>
+            <h2>Facturación</h2>
+            <article>
+                
+                <hr>
+                <form action="confirmacion.jsp" method="POST">
+                    <fieldset>                        
+                        <legend style=" color: black; text-align: center">Información del Facturación </legend>
+                        <label>Nombre completo</label>
+                        <input type="text" value="texto" required="true"/>
+                        <br/>                    
+
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="correo" placeholder="correo@xxxxx.xxx"/>
+                        <br/>
+                        <label>Celular:</label>
+                        <input type="tel" name="telefono" required="true" placeholder="8888-8888"/>
+                        <br/>
+                        <label>Numero de Tarjeta:</label>
+                        <input type="text" name="tarjeta" required="true" placeholder="xxxx-xxxx-xxxx-xxxx"/>
+                        <br/>
+                        <label>CVV/CVC:</label>
+                        <input type="password" name="password" "/>
+                        <br/>
+                        <label>Fecha Expiracion</label>
+                        <input type="text" placeholder="xx/xx"/>
+                    </fieldset>
+                    <label>Limpiar:</label>
+                    <input type="reset" name="borrar todo"/>                    
+                    <br/>
+                    <input type="submit" name="Enviar"/>
+                    <br/>
+
+
+                </form>
+            </article>
+        </section>
+        <hr>
+        <footer>
+            Sitio desarrollado en el curso<span> Web y Patrones 2022</span> &COPY;
+        </footer>
+    </body>
+</html>

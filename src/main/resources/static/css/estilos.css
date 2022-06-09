@@ -1,0 +1,56 @@
+*{
+
+    background-color: #eae6de;
+}
+body{
+    background-image: url('../img/pc.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+
+}
+
+h2{
+    background-color:#f2dc99;
+    color: #737373;
+    text-align: center
+}
+
+h3{
+    background-color:#eae6de;
+    color: black;
+    text-align: center
+}
+
+
+
+
+#encabezado {
+    background-color: #A0DFDF;
+    color: #737373;
+    text-align: center
+
+}
+#subtitulo {
+    background-color: #eae6de;
+    color: #92d473;
+    text-align: center
+}
+.articulo {
+    background-color: #eae6de;
+    font-family: sans-serif;
+    color: black;
+}
+
+footer span {
+    color: blue;
+}
+
+a:hover {
+    background-color: red;
+    color: white;
+}
+
+a {
+    background-color: blue;
+    color:white
+}
